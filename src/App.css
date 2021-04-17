@@ -6,7 +6,7 @@
 }
 
 .home,
-.Places,
+.places,
 .about {
   display: flex;
   height: 90vh;
@@ -16,7 +16,7 @@
 }
 
 .places {
-  background-image: url('img-home.jpg');
+  /* background-image: url('Components/images/Rijal-Alma.jpg'); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,10 +25,11 @@
 }
 
 .about {
-  background-image: url('img-home.jpg');
+  /* background-image: url('Components/images/Riyadh.jpg'); */
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
 }
+
