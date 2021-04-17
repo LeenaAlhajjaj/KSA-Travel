@@ -9,11 +9,12 @@ function HeroSection(){
 return(
 
   <div className= 'hero-container'>
-  // the video here
-
+   {/*the video here*/}
+ 
   <h1>Descover the Kingdom </h1>
-        <div className= "hero-btns">
-          <Button className= 'btns'
+        <div className= 'hero-btns'>
+          <Button
+          className= 'btns'
             buttonStyle= 'btn--outline'
               buttonSize= 'btn--large'
     >
@@ -26,4 +27,5 @@ return(
 }
 
 
-export default HeroSection
+export default HeroSection;
+
